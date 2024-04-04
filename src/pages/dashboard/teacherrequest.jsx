@@ -1,10 +1,14 @@
 import React from "react";
 import '../../assets/css/table.css'
 import { Link } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function TeacherRequest()
 {
+    toast('Teacher Request')
     return (
         <>
+              <ToastContainer /> 
         <div className="p-5">
             <div className="flex justify-between">
                 <div className="font-bold text-xl">Teacher's Requests</div>
