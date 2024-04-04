@@ -10,14 +10,14 @@ function TeacherRequest()
         <>
               <ToastContainer /> 
         <div className="p-5">
-            <div className="flex justify-between">
+            <div className="flex justify-between max-md:flex-col max-md:items-center">
                 <div className="font-bold text-xl">Teacher's Requests</div>
                 <div className="flex gap-3 p-2">
                     <Link className="py-1 px-2 border rounded text-white bg-green-800 ">Accept All</Link> |
                     <Link className="py-1 px-2 border rounded text-white bg-red-800">Reject All</Link>
                 </div>
                 </div>
-            <div className="p-5 bg-slate-100 border mt-2">
+            <div className="p-5 bg-slate-100 border mt-2 max-md:overflow-scroll">
                 <table>
                     <tr>
                         <th>Sr No.</th>

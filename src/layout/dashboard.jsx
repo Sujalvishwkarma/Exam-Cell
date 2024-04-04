@@ -6,7 +6,7 @@ import Header from "../components/header";
 function DashboardLayout() {
     return (
         <>
-            <main className="flex">
+            <main className="flex max-md:flex-col">
                 <Sidebar />
                 <div className="w-full">
                     <Header student="" />

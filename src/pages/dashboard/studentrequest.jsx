@@ -7,12 +7,12 @@ import "react-toastify/dist/ReactToastify.css";
 
 function StudentRequest() {
   const notify = () => toast("Success");
-  
+
   return (
     <>
       <ToastContainer />
       <div className="p-5">
-        <div className="flex justify-between">
+        <div className="flex justify-between max-md:flex-col max-md:items-center">
           <div className="font-bold text-xl">Student's Requests</div>
           <div className="flex gap-3 p-2">
             <button
@@ -30,7 +30,7 @@ function StudentRequest() {
             </Link>
           </div>
         </div>
-        <div className="p-5 bg-slate-100 border mt-2">
+        <div className="p-5 bg-slate-100 border mt-2 max-md:overflow-scroll">
           <table>
             <tr>
               <th>Sr No.</th>
