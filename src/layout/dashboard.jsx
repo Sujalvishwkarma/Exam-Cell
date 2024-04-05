@@ -8,7 +8,7 @@ function DashboardLayout() {
         <>
             <main className="flex max-md:flex-col">
                 <Sidebar role='' />
-                <div className="w-full relative">
+                <div className="w-full relative max-md:p-5">
                     <Header student="" />
                     <div className="p-5">
                         <Outlet />
