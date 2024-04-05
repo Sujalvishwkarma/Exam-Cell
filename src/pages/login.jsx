@@ -6,8 +6,8 @@ function LoginPage()
 {
     return (
         <>
-        <div className="min-h-screen max-md:h-auto flex max-md:flex-col-reverse max-md:items-center max-md:gap-3">
-            <div className="w-1/3 border flex justify-center items-center max-md:w-full">
+        <div className="min-h-screen flex max-md:flex-col-reverse max-md:items-center max-md:justify-center max-md:gap-3">
+            <div className="w-1/3 border max-md:border-0 flex justify-center items-center max-md:w-full">
                 <div className="shadow p-5 ">
                     <h1 className="text-lg font-bold">Log In</h1>
                     <form action="" className="w-full">
@@ -25,8 +25,8 @@ function LoginPage()
                     </form>
                 </div>
             </div>
-            <div className="w-2/3 max-md:w-2/3 max-md:flex max-md:border max-md:mt-2 ">
-                <img className="h-full" src={LoginImg} alt="" />
+            <div className="w-2/3 max-md:flex">
+                <img className="h-full max-md:h-auto" src={LoginImg} alt="" />
             </div>
         </div>
         
