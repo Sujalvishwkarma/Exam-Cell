@@ -1,36 +1,36 @@
-table{
+.table{
     width: 100%;
 }
-table tr{
+.table>tr{
     border: 5px solid white;
 }
-table tr:nth-child(odd){
+.table>tr:nth-child(odd){
     background: skyblue;
 }
-table tr:nth-child(even){
+.table>tr:nth-child(even){
     background: rgb(207, 230, 239);
 }
-table tr th{
+.table>tr>th{
     border: 2px solid white;
 }
-table tr td{
+.table>tr>td{
     border: 2px solid white;
     padding: .2em 1em;
 }
-table tr td:last-child{
+.table>tr>td:last-child{
     display: flex;
     justify-content: space-around;
 }
-table tr td:last-child a{
+.table>tr>td:last-child>a{
     padding: .1em 1em;
     font-size: .8em;
     border: 2px solid white;
     border-radius: 5px;
     color: white;
 }
-table tr td:last-child a:first-child{
+.table>tr>td:last-child>a:first-child{
     background-color: green;
 }
-table tr td:last-child a:last-child{
+.table>tr>td:last-child>a:last-child{
     background-color: red;
 }

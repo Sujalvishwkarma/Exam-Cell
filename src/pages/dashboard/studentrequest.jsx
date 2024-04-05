@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/css/table.css";
+
 import { Link } from "react-router-dom";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -31,7 +31,7 @@ function StudentRequest() {
           </div>
         </div>
         <div className="p-5 bg-slate-100 border mt-2 max-md:overflow-scroll">
-          <table>
+          <table className='table'>
             <tr>
               <th>Sr No.</th>
               <th>Student Name</th>
