@@ -9,11 +9,11 @@ function Indexpage()
         <>
         <div className="flex items-center p-5">
             <div className="">
-                <h1 className="text-6xl font-bold text-blue-900">Plan in Seconds , Not weekends.</h1>
+                <h1 className="text-6xl max-md:text-5xl font-bold text-blue-900">Plan in Seconds , Not weekends.</h1>
                 <h4 className="mt-3 text-lg text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit
                 . Repellat consequatur adipisci, consectetur sit alias provident dolore consequuntur sunt deleniti
                  repellendus.</h4>
-                <div className="flex p-3 gap-5">
+                <div className="flex p-3 gap-5 max-md:text-sm">
                     <Link className="p-2 bg-blue-900 text-white rounded-lg">Let's Create Exam</Link>
                     <Link className="p-2 bg-blue-900 text-white rounded-lg">Learn More</Link>
                 </div>
