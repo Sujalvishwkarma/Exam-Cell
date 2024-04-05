@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./assets/css/index.css";
 import DashboardLayout from "./layout/dashboard";
 import PageLayout from "./layout/page";
-import Home from "./pages/dashboard/home";
+import Home from "./pages/dashboard/Home";
 import TeacherRequest from "./pages/dashboard/teacherrequest";
 import TeacherRegister from "./pages/dashboard/teacherregister";
 import StudentRequest from "./pages/dashboard/studentrequests";
