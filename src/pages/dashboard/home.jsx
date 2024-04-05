@@ -1,7 +1,7 @@
 import React from "react";
 import { Exam, Grid_3 } from "../../components/utils";
 
-function Home() {
+function Homepage() {
   return (
     <>
       <Grid_3>
@@ -32,4 +32,4 @@ function Home() {
     </>
   );
 }
-export default Home;
+export default Homepage;
