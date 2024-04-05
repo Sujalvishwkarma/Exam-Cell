@@ -8,9 +8,9 @@ function LoginPage()
         <>
         <div className="min-h-screen flex max-md:flex-col max-md:items-center max-md:gap-3">
             <div className="w-1/3 border flex justify-center items-center max-md:w-full">
-                <div className="border p-5">
-                    <h1 className="text-lg">Log In</h1>
-                    <form action="">
+                <div className="shadow p-5 ">
+                    <h1 className="text-lg font-bold">Log In</h1>
+                    <form action="" className="w-full">
                        <div className="flex items-center relative mt-4">
                         <BsPeople className="absolute left-2"/>
                         <input type="text" className="py-2 px-8 bg-slate-100 rounded-md" placeholder="Username" />
@@ -19,7 +19,9 @@ function LoginPage()
                         <BsKey className="absolute left-2"/>
                         <input type="text" className="py-2 px-8 bg-slate-100 rounded-md" placeholder="Password" />
                        </div>
-                       <Link className="py-2 text-center w-full" to='/dashboard'>Login</Link>
+                       <div className="text-center mt-8">
+                       <Link className="p-2 bg-blue-900 w-full text-white rounded-lg" to='/dashboard'>Login</Link>
+                       </div>
                     </form>
                 </div>
             </div>
