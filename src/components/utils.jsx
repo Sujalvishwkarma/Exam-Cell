@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export function Exam(props) {
   return (
     <>
-      <div className="border border-slate-300 rounded-md overflow-hidden shadow-sm">
+      <div className="border border-slate-300 rounded-2xl overflow-hidden shadow-sm">
         <div className="min-h-45 flex items-center justify-center overflow-hidden bg-[#ecf5fe]">
           <img className="w-2/3" src={ExamImg} alt="" />
         </div>
