@@ -45,6 +45,15 @@ export function Exam(props) {
   );
 }
 
+export function Grid_2({ children }) {
+  return (
+    <>
+      <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1">
+        {children}
+      </div>
+    </>
+  );
+}
 export function Grid_3({ children }) {
   return (
     <>
