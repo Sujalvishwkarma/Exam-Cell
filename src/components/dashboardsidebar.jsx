@@ -17,24 +17,24 @@ function DashboardSidebar(props)
                     <SidebarLink  name='Exam History' to='./examhistory' icon={<BsCardList/>} />
 
 
-{
+{/* {
     props.role === 'admin' && (
-        <>
+        <> */}
                     <SidebarLink  name='Teacher Register' to='./teacherregister' icon={<BsPersonVcard/>} />
                     <SidebarLink  name='Teacher Requests' to='./teacherrequests' icon={<BsPersonVcard/>} />
-                    </>
+                    {/* </>
     )
-}
+} */}
 
 
-{
+{/* {
     props.role === 'teacher' && (
-        <>
+        <> */}
         <SidebarLink  name='Student Register' to='./studentregister' icon={<BsPersonPlus/>} />
         <SidebarLink  name='Student Requests' to='./studentrequests' icon={<BsPersonPlus/>} />
-        </>
+        {/* </>
     )
-}
+} */}
 
 
                     <SidebarLink  name='Settings' to='./settings' icon={<BsGear/>} />

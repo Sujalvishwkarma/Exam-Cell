@@ -16,6 +16,7 @@ import ExamHistory from "./pages/dashboard/examhistory";
 import Profile from "./pages/dashboard/profile";
 import Indexpage from "./pages/pages/index";
 import LoginPage from "./pages/login";
+import SignupPage from "./pages/signup";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </Route>
         
         <Route path="/login" index element={<LoginPage />} />
+        <Route path="/signup" index element={<SignupPage />} />
 
         <Route path="/dashboard" element={<DashboardLayout />}>
           <Route path="/dashboard" index element={<Home />} />
