@@ -39,6 +39,7 @@ function SignupPage()
                        <Link className="p-2 bg-blue-900 w-full text-white rounded-lg" to='/dashboard'>SignUp</Link>
                        </div>
                     </form>
+                    <p className="mt-5">Go to <Link to='/' className="text-blue-800 font-bold">Home</Link></p>
                 </div>
             </div>
 

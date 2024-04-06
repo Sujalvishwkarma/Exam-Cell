@@ -5,7 +5,7 @@ function StudentRegister()
     return (
         <>
         <div className="p-5">
-            <h1 className="text-2xl">Teacher Registration</h1>
+            <h1 className="text-2xl">Student Registration</h1>
             <form action="" className="grid grid-cols-2 mt-5">
                 <div className="flex flex-col border p-2">
                     <label htmlFor="">Name</label>

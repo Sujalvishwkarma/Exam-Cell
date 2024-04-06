@@ -7,7 +7,7 @@ function PageLayout() {
     return (
         <>
        <Header/>
-       <main className="p-5">
+       <main className="p-5 min-h-[85vh]">
        <Outlet/>
        </main>
        <Footer/>

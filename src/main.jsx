@@ -17,7 +17,7 @@ import Profile from "./pages/dashboard/profile";
 import Indexpage from "./pages/pages/index";
 import LoginPage from "./pages/login";
 import SignupPage from "./pages/signup";
-
+import CreateExam from "./pages/pages/createexam";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -26,6 +26,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
         <Route path="/" element={<PageLayout />}>
           <Route path="/" index element={<Indexpage />} />
+          <Route path="/createexam" element={<CreateExam />} />
         </Route>
         
         <Route path="/login" index element={<LoginPage />} />

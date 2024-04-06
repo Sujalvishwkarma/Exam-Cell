@@ -19,9 +19,9 @@ function Navbar()
     return (
         <>
         <div className="flex justify-between items-center py-3 px-8 border-b max-md:flex-col text-nowrap">
-            <div className="text-2xl font-bold">Examination Cell</div>
+            <Link to='/' className="text-2xl font-bold">Examination Cell</Link>
             <ul className="flex items-center max-md:mt-3 max-md:text-xs">
-                <li className="p-1"><Link className="p-2 transition duration-300 bg-blue-800 hover:bg-slate-800  font-semibold rounded-lg text-white " to=''>Create Exam</Link></li>
+                <li className="p-1"><Link className="p-2 transition duration-300 bg-blue-800 hover:bg-slate-800  font-semibold rounded-lg text-white " to='/createexam'>Create Exam</Link></li>
                 <li className="p-1"><Link className="p-2 transition duration-300 bg-blue-800 hover:bg-slate-800 font-semibold rounded-lg text-white " to='/signup'>Join Exam</Link></li>
                <li className="max-md:hidden"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
                 <li className="p-1 flex flex-col items-center">

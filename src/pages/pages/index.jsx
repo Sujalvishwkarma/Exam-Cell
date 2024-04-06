@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Grid_2 } from "../../components/utils";
+import { Grid_2 , Grid_3} from "../../components/utils";
 function Indexpage()
 {
     return (
@@ -24,6 +24,7 @@ function Indexpage()
         </div>
         </>
        </Grid_2>
+
         </>
     )
 }
