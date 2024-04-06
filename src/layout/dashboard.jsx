@@ -10,7 +10,7 @@ function DashboardLayout() {
                 <Sidebar role='' />
                 <div className="w-full relative">
                     <Header student="" />
-                    <div className="p-5 max-md:p-10">
+                    <div className="p-5">
                         <Outlet />
                     </div>
                 </div>
